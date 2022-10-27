@@ -49,9 +49,34 @@ of A+B, if A=B then the result of A*B, if A<B then A-B.
 /* 5. User gives 3 numbers (a, b, c). Find out and print to the console 
 the solution of quadratic equation ax^2+bx+c=0.
 */
-let A4 = Number(+prompt( "Please enter the value for A4"));
-let B4 = Number(+prompt("Please enter the value for B4"));
-let C4 = Number(+prompt("Please enter the value for C4"));
-//  A4 * x^2 + B4*x + C4 == 0
+// let A4 = Number(+prompt( "Please enter the value for A4"));
+// let B4 = Number(+prompt("Please enter the value for B4"));
+// let C4 = Number(+prompt("Please enter the value for C4"));
 
-console.log(x)
+// //  A4 * x^2 + B4*x + C4 == 0
+// let x1;
+// let x2;
+// let D = ((B4*B4) - (4*A4*C4));
+// console.log(D);
+
+// if (D<0){
+//     console.log("NaN false value");
+// }   
+//     else if(D==0){
+//     x1=(-B4)/(2*A4);
+//     x2=x1;
+//     console.log(x1,x2);
+// }   
+//     else {
+//     x1= ((-B4 + Math.sqrt(D)) / (2 * A4));
+//     x2= ((-B4 - Math.sqrt(D)) / (2 * A4));
+//     console.log(x1,x2)
+// }
+
+
+/* 6. The user enters a two-digit number. Print the literal representation of this 
+number to the console. For example, 
+typing "25" will display "twenty five" in the console, 
+and "13" will display "thirteen".
+*/
+
