@@ -7,8 +7,6 @@ of dividing A by B and the remainder of the division.
 // console.log(A % B);
 
 
-
-
 /* 2. The user enters 2 values (A and B). Swap the contents of variables A and B 
 (that means the value of variable B must be assigned to variable A, and vice versa).
 */
@@ -79,4 +77,81 @@ number to the console. For example,
 typing "25" will display "twenty five" in the console, 
 and "13" will display "thirteen".
 */
+// let num = +prompt('Please enter a number for convert to string');
+// let secondNum= num%10;
+// let tenth = num-secondNum;
 
+// if(num<20){
+//    switch (num) {
+//     case 10: console.log('ten')
+//         break;
+//     case 11: console.log('eleven')
+//         break;
+//     case 12: console.log('twelve')
+//         break;
+//     case 13: console.log('thirteen')
+//         break;
+//     case 14: console.log('fourteen')
+//         break;
+//     case 15: console.log('fifteen')
+//         break;     
+//     case 16: console.log('sixteen')
+//         break;
+//     case 17: console.log('seventeen')
+//         break;  
+//     case 18: console.log('eighteen')
+//         break;
+//     case 19: console.log('nineteen')
+//         break;        
+//    }
+
+// } else{
+
+//     switch(tenth){
+//         case 20:tenth='twenty'
+//         break;
+//         case 30:tenth='thirty'
+//         break;
+//         case 40:tenth='fourty'
+//         break;
+//         case 50:tenth='fifty'
+//         break;
+//         case 60:tenth='sixty'
+//         break;
+//         case 70:tenth='seventy'
+//         break;
+//         case 80:tenth='eightty'
+//         break;
+//         case 90:tenth='ninety'
+//         break;
+//     }
+
+//     switch(secondNum){
+//         case 0: secondNum=''
+//         break;
+//         case 1: secondNum='one'
+//         break;
+//         case 2: secondNum='two'
+//         break;
+//         case 3: secondNum='three'
+//         break;
+//         case 4: secondNum='four'
+//         break;
+//         case 5: secondNum='five'
+//         break;
+//         case 6: secondNum='six'
+//         break;
+//         case 7: secondNum='seven'
+//         break;
+//         case 8: secondNum='eight'
+//         break;
+//         case 9: secondNum='nine'
+//         break;
+//     }
+//     console.log(tenth + ' ' + secondNum);
+// }
+
+
+/* 7. User gives 3 numbers (x, y, r). Find out if point with location (x,y) is inside a circle 
+with radius r? (the center of the circle is at the origin)
+*/
