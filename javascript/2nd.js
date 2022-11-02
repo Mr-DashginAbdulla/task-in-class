@@ -66,17 +66,17 @@ by 7 without a remainder. (Note that B may be less than A if you type).
 6. The user enters 2 numbers. Find their greatest common divisor using Euclid's algorithm. 
     (yes, you've got to google this algorithm at first :D ).
 */
-let a = parseInt(prompt('Please enter the value for a'));
-let b = parseInt(prompt('Please enter the value for b'));
-let remainder;
+// let a = parseInt(prompt('Please enter the value for a'));
+// let b = parseInt(prompt('Please enter the value for b'));
+// let remainder;
 
-while((a%b)>0){
-    remainder=a%b;
-    a=b;
-    b=remainder;
-} if (a%b==0){
-    console.log(b)
-}
+// while((a%b)>0){
+//     remainder=a%b;
+//     a=b;
+//     b=remainder;
+// } if (a%b==0){
+//     console.log(b)
+// }
 
 
 

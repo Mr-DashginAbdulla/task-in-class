@@ -11,7 +11,9 @@
 10. Sort the array in descending order in one of the ways (different from the method taken in the 9th task): bubble sort, selection sort or insertion sort.
 */
 
-let array=[ 2, 78, 34, 94, 6, 562, 75, 0, 86, 69, 25, 37, 1, 257, 9];
+let array=[ 3, 78, 34, 98, 31, 6, 562, 75, 0, 86, 69, 25, 46, 1, 257, 9];
+
+//1.
 // let minimum=array[0]
 // for (const item of array) {
 //     if(minimum>item){
@@ -21,6 +23,7 @@ let array=[ 2, 78, 34, 94, 6, 562, 75, 0, 86, 69, 25, 37, 1, 257, 9];
 // console.log(minimum);
 
 
+//2.
 // let maximum=array[0]
 // for (const item of array) {
 //     if(maximum<item){
@@ -30,6 +33,7 @@ let array=[ 2, 78, 34, 94, 6, 562, 75, 0, 86, 69, 25, 37, 1, 257, 9];
 // console.log(maximum);
 
 
+//3.
 // let index=0;
 // let minimum=array[0];
 // for (let i = 0; i < array.length; i++) {
@@ -41,6 +45,7 @@ let array=[ 2, 78, 34, 94, 6, 562, 75, 0, 86, 69, 25, 37, 1, 257, 9];
 // console.log(index);
 
 
+//4.
 // let index=0;
 // let maximum=array[0];
 // for (let i = 0; i < array.length; i++) {
@@ -52,9 +57,23 @@ let array=[ 2, 78, 34, 94, 6, 562, 75, 0, 86, 69, 25, 37, 1, 257, 9];
 // console.log(index);
 
 
+//5.
 // let sum=0;
 // for (let index = 1; index < array.length; index+=2) {
 //     sum= sum+array[index];
 // }
 // console.log(sum);
 
+
+//6.
+
+
+
+//7.
+let index=0;
+for (let i = 0; i < array.length; i++) {
+    index=array[i]
+    if(index%2>0){
+        console.log(index);
+    }
+}
