@@ -12,6 +12,7 @@
 */
 
 let array=[ 3, 78, 34, 98, 31, 6, 562, 75, 0, 86, 69, 25, 46, 1, 257, 9];
+console.log(array);
 
 //1.
 // let minimum=array[0]
@@ -70,10 +71,42 @@ let array=[ 3, 78, 34, 98, 31, 6, 562, 75, 0, 86, 69, 25, 46, 1, 257, 9];
 
 
 //7.
-let index=0;
-for (let i = 0; i < array.length; i++) {
-    index=array[i]
-    if(index%2>0){
-        console.log(index);
-    }
-}
+// let index=0;
+// for (let i = 0; i < array.length; i++) {
+//     if(array[i]%2>0){
+//         index++;
+//     }
+// }
+// console.log('odd elements: ' +index);
+
+
+//8.
+
+
+//9.
+//-9.1-
+// let bubble=0;
+// for (let i = 0; i < array.length; i++) {
+//     for (let index = 0; index < array.length-1; index++) {
+//         if(array[index]>array[index+1]){
+//             bubble=array[index];
+//             array[index]=array[index+1];
+//             array[index+1]=bubble;
+//         }
+//     }
+// }
+// console.log(array)
+
+
+//-10.1-
+// let bubble=0;
+// for (let i = 0; i < array.length; i++) {
+//     for (let index = 0; index < array.length-1; index++) {
+//         if(array[index]<array[index+1]){
+//             bubble=array[index];
+//             array[index]=array[index+1];
+//             array[index+1]=bubble;
+//         }
+//     }
+// }
+// console.log(array)
