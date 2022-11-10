@@ -83,11 +83,26 @@ main .first-part {
 }
 main .first-part .photo {
   width: 62%;
+  position: relative;
 }
 main .first-part .photo img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main .first-part .photo #left-btn {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 20px;
+  cursor: pointer;
+}
+main .first-part .photo #right-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+  width: 20px;
 }
 main .text-part {
   display: flex;

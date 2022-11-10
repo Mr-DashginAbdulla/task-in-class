@@ -75,11 +75,27 @@ main{
     }
     .first-part .photo{
         width: 62%;
+        position: relative;
 
-     img{
-        width: 100%;
-        object-fit: cover;
-    }
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        #left-btn{
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            width: 20px;
+            cursor: pointer;
+        }
+        #right-btn{
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            cursor: pointer;
+            width: 20px;
+        }
+       
     }
     .text-part{
         display: flex;
